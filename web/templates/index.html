@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Bright</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="{{ url_for('mainpage') }}" style="color: #3A4E94;">Bright</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" style="color: #3A4E94;" href="{{ url_for('mainpage') }}">Home</a>
+            <a class="nav-item nav-link" href="{{ url_for('aboutpage')}}">About</a>
+            <a class="nav-item nav-link" style="color: #3A4E94;" href="{{ url_for('register') }}">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container-xl" style="padding-top:3%;">
+        <div class="row">
+          <div class="col-md-4" style="padding-top: 20%;">
+              <h5 class="firstpara" style="color: #3A4E94;">Helping you overcome</h5>
+              <h5 class="secondpara">the obstacles in life</h5>
+              <button class="thirdpara" type="button" class="btn" style="border-radius: 10px; border:0px;  background-color: #3A4E94; text-align: center; padding-top: 10px; padding-left: 15px; padding-right:15px;"><h4 class="thirdpara" style="color: aliceblue;">Try it now!</h4></button>
+          </div>
+          <div class="col-md-8">
+            <img src="{{ url_for('static', filename='img/Banner.png') }}" class ="img-responsive" style="width: 95%; height: 95%;" alt="imgMod">
+        </div>
+        </section>
+
+
+        <div class="space" style="padding-top: 2%;"></div>
+        </div>
+        
+        <section class="container">
+            <div class="card-deck">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <img class="card-img-top" style="border-radius: 40%; width: 80%;height: 80%; " src="{{ url_for('static', filename='img/Hands1.png') }}" alt="Card image cap">
+                  <h5 class="card-title center" style="padding-top: 3%; color:#696969;">Stronger together with Bright</h5>
+                </div>
+              </div>
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <img class="card-img-top" style="border-radius: 40%; width: 80%;height: 80%;" src="{{ url_for('static', filename='img/Connect.png') }}" alt="Card image cap">
+                  <h5 class="card-title center" style="padding-top: 3%; color:#696969;">Forming a network of people just like you</h5>
+                </div>
+              </div>
+              
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <img class="card-img-top" style="border-radius: 40%; width: 80%;height: 80%;" src="{{ url_for('static', filename='img/IndiaPow.png') }}" alt="Card image cap">
+                  <h5 class="card-title center" style="padding-top: 3%; color:#696969;">Helping you understand yourself better</h5>
+                </div>
+              </div>
+              </div>
+            </div>
+          </section>
+
+        <div class="space" style="padding-top: 5%;"></div>
+        </div>
+
+
+        <style>
+            .parallax {
+                 /* The image used */
+                 background-image: url("static/img/Banner1.png");
+ 
+                 /* Set a specific height */
+                 height: 500px;
+ 
+                 /* Create the parallax scrolling effect */
+                 background-attachment: fixed;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 }
+         </style>
+
+        <section>
+            <div class="parallax">
+            </div>
+        </section>
+
+
+        <div class="space" style="padding-top: 5%;"></div>
+        </div>
+        
+        <h5 class="firstpara" style="color: #3A4E94; text-align: center;">Tell Bright how you feel!</h5>
+
+        <div class="space" style="padding-top: 3%;"></div>
+        </div>
+
+        <section class="container">
+          <div class="card-deck">
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/1.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Sad</h5>
+
+              </div>
+            </div>
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/2.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Angry</h5>
+
+              </div>
+            </div>
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/3.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Surprised</h5>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="space" style="padding-top: 5%;"></div>
+        </div>
+
+
+        <section class="container">
+            <div class="card-deck">
+                <div class="card" style="border: none;">
+                  <div class="card-body">
+                    <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/4.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Happy</h5>
+
+                  </div>
+                </div>
+                <div class="card" style="border: none;">
+                  <div class="card-body">
+                    <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/5.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Stressed</h5>
+
+                  </div>
+                </div>
+                <div class="card" style="border: none;">
+                  <div class="card-body">
+                    <img class="card-img-top" style="border-radius: 40%;" src="{{ url_for('static', filename='img/6.png') }}" alt="Card image cap">
+                <h5 class="card-title center" style="padding-top: 4%; color:#696969; text-align: center;">Content</h5>
+
+                  </div>
+                </div>
+              </div>
+        </section>
+        <div class="space" style="padding-top: 11%;"></div>
+    </div>
+
+<!-- 
+        <section class="container">
+          <div class="row">
+            <div class="col-md-7">
+            <img src="img/Series of images 1 (7).jpg" class ="img-responsive" style="width: 93%; height: 93%;" alt="imgMod">
+            </div>
+            <div class="col-md-4 ml-auto">
+              <h5 class="titlesecond center">How it does works?</h5>
+              <p class="paragraph" style="padding-top: 4%;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit voluptate cumque labore ex molestias, laborum nisi delectus consequatur quidem nobis fugit ratione error quo maxime, vitae necessitatibus, perferendis exercitationem! Molestiae.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="space" style="padding-top: 11%;"></div>
+        </div>
+
+        <section class="container">
+          <div class="row">
+            <div class="col-md-4 ml-auto">
+              <h5 class="titlesecond center">How it does works?</h5>
+              <p class="paragraph" style="padding-top: 4%;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit voluptate cumque labore ex molestias, laborum nisi delectus consequatur quidem nobis fugit ratione error quo maxime, vitae necessitatibus, perferendis exercitationem! Molestiae.
+              </p>
+            </div>
+            <div class="col-md-7">
+            <img src="img/Series of images 1.png" class ="img-responsive" style="width: 90%; height: 90%;" alt="imgMod">
+            </div>
+          </div>
+        </section>
+        <div class="space" style="padding-top: 11%;"></div>
+        </div>
+
+
+        <section class="container">
+          <div class="row">
+            <div class="col-md-7">
+            <img src="img/SOCIAL MEDIA MARKETING (1).png" class ="img-responsive" style="width: 90%; height: 90%;" alt="imgMod">
+            </div>
+            <div class="col-md-4 ml-auto">
+              <h5 class="titlesecond center">How it does works?</h5>
+              <p class="paragraph" style="padding-top: 4%;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit voluptate cumque labore ex molestias, laborum nisi delectus consequatur quidem nobis fugit ratione error quo maxime, vitae necessitatibus, perferendis exercitationem! Molestiae.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <div class="space" style="padding-top: 11%;"></div>
+        </div> -->
+
+        </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

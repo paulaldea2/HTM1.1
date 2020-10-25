@@ -1,0 +1,7 @@
+Flask
+flask_restful
+bcrypt
+dnspython
+pymongo
+chatterbot==1.0.5
+chatterbot-corpus

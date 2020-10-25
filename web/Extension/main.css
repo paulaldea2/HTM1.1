@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 30px;
+    padding-left: 3%;
+}
+#navbarNavAltMarkup{
+    font-size: 16px;
+    padding-right: 50px;
+}
+.firstpara {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+}
+.secondpara{
+    font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(114,109,119,1);
+}
+
+
+.thirdpara{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(114,109,119,1);
+}
+
+.titlesecond{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+    color: #5C3882
+}
+.paragraph{
+
+    font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+    color: rgba(114,109,119,1);
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+    color: #5C3882
+
+}
